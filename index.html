@@ -7,44 +7,56 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Single Price Grid Component</title>
-
+  <script src="https://cdn.tailwindcss.com"></script>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
-  Join our community
+<body class="h-screen flex items-center justify-center bg-[#e5eff5] font-karla ">
 
-  30-day, hassle-free money back guarantee
+  <div class=" flex flex-col max-w-[300px] rounded-lg ">
+  <div class=" bg-white p-4 border-solid border-2 border-none rounded-t-lg font-sans space-y-4">
 
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
+  <h1 class="text-[#2ab2af]">Join our community</h1>
 
-  Monthly Subscription
+  <h2 class="text-[#c0df34]">30-day, hassle-free money back guarantee</h2>
 
-  &dollar;29 per month
+  <p class="text-[#98a6bd]">Gain access to our full library of tutorials along with expert code reviews. 
+  Perfect for any developers who are serious about honing their skills.</p>
+  
+  </div>
+  <div class="">
+  <div class=" bg-[#2ab2af] p-4 text-white space-y-4 border-solid border-2 border-none">
 
-  Full access for less than &dollar;1 a day
+  <h2 class="text-xs pt-3">Monthly Subscription</h2>
 
-  Sign Up
+  <p class="pt-1"><strong class="text-2xl">&dollar;29</strong> per month</p>
 
-  Why Us
+  <p class="text-xs">Full access for less than &dollar;1 a day</p>
 
-  Tutorials by industry experts
+  <button class="!mb-5 bg-[#c0df34] w-full p-2.5 text-white rounded-md ">Sign Up</button>
+  
+  </div>
+
+  <div class="bg-[#4ec3c1] text-[#e5eff580] p-4 border-solid space-y-4 rounded-b-lg border-2 border-none">
+
+  <h2 class="text-white">Why Us</h2>
+
+  <p class="text-base text-left ">Tutorials by industry experts
   Peer &amp; expert code review
   Coding exercises
   Access to our GitHub repos
   Community forum
   Flashcard decks
-  New videos every week
+  New videos every week</p>
+
+  </div>
+  </div>
+  </div>
   
   <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
   </footer>
 </body>
 </html>
